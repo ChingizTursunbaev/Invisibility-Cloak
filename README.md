@@ -4,7 +4,9 @@
 
 ## Overview
 This project mimics the famous "Invisibility Cloak" from Harry Potter. It works by capturing a static background frame and then processing the live video feed to detect a specific color (currently **Red**). When the target color is detected, the program replaces those pixels with the saved background pixels, creating the illusion of transparency.
-sample.png
+
+![Sample](sample.png)
+
 ## Technical Concepts
 This project demonstrates proficiency in several key Computer Vision concepts using **OpenCV**:
 * **Color Space Conversion:** Converting BGR (Blue-Green-Red) frames to HSV (Hue-Saturation-Value) for robust color detection that is less sensitive to lighting changes.
