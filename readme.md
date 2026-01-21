@@ -21,7 +21,7 @@ This project demonstrates proficiency in several key Computer Vision concepts us
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/ChingizTursunbaev/Invisibility-Cloak.git
-    cd invisible-cloak
+    cd Invisibility-Cloak
     ```
 2.  **Install dependencies:**
     ```bash
@@ -39,17 +39,17 @@ This project demonstrates proficiency in several key Computer Vision concepts us
 5.  Watch as the object becomes "invisible."
 6.  Press **`q`** to quit the application.
 
-## ⚙️ Configuration
+## Configuration
 You can adjust the color sensitivity in `main.py` if your object isn't being detected perfectly.
 * **Target Color:** Currently set to detect **Red**.
 * **Hue Ranges:**
     * Lower Red: `H: 0-10`
     * Upper Red: `H: 170-180`
 
-## 🤝 Contributing
+## Contributing
 Feel free to fork this project and submit pull requests. Future improvements could include:
 * Adding a trackbar to adjust color sensitivity in real-time.
 * Implementing automatic background updates to handle lighting changes.
 
-## 📜 License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
