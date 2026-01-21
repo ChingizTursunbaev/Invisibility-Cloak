@@ -2,25 +2,25 @@
 
 > A real-time computer vision application that creates an "Invisibility Cloak" effect using color segmentation and background subtraction.
 
-## 📝 Overview
+##  Overview
 This project mimics the famous "Invisibility Cloak" from Harry Potter. It works by capturing a static background frame and then processing the live video feed to detect a specific color (currently **Red**). When the target color is detected, the program replaces those pixels with the saved background pixels, creating the illusion of transparency.
 
-## 🔧 Technical Concepts
+##  Technical Concepts
 This project demonstrates proficiency in several key Computer Vision concepts using **OpenCV**:
 * **Color Space Conversion:** Converting BGR (Blue-Green-Red) frames to HSV (Hue-Saturation-Value) for robust color detection that is less sensitive to lighting changes.
 * **Image Segmentation:** Creating binary masks to separate the foreground object (the cloak) from the rest of the scene.
 * **Morphological Operations:** (Optional) Refining the mask to remove noise and smooth edges.
 * **Bitwise Arithmetic:** Using `bitwise_and` and `add` operations to seamlessly blend the background and foreground layers.
 
-## 🛠️ Prerequisites
+## Prerequisites
 * Python 3.x
 * OpenCV (`opencv-python`)
 * NumPy
 
-## 📦 Installation
+##  Installation
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/invisible-cloak.git](https://github.com/your-username/invisible-cloak.git)
+    git clone https://github.com/ChingizTursunbaev/Invisibility-Cloak.git
     cd invisible-cloak
     ```
 2.  **Install dependencies:**
